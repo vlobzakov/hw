@@ -1,0 +1,6 @@
+﻿<parameters>
+  <parameter name="IIS Web Application Name" defaultValue="Default Web Site/HelloWorld" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="iisApp" match="Default\ Web\ Site/HelloWorld" />
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="$" />
+  </parameter>
+</parameters>
